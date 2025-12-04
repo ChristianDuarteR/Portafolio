@@ -137,7 +137,7 @@ export default function Page() {
       </section>
 
       <section id="experience" className="text-center px-4">
-        <h3 className="text-3xl font-bold mb-8 text-left">Experiencia</h3>
+        <h3 className="text-3xl font-bold mb-8 text-left text-white">Experiencia</h3>
 
         <div className="flex flex-col gap-6">
           {experiencias.map((exp) => (
@@ -157,7 +157,7 @@ export default function Page() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16 space-y-32">
 
         <section id="projects">
-          <h3 className="text-3xl font-bold mb-8 text-left flex items-center gap-2">
+          <h3 className="text-3xl font-bold mb-8 text-left flex items-center gap-2 text-white">
             <span className="text-purple-400 font-mono">{'</>'}</span> Proyectos
           </h3>
 
@@ -174,7 +174,7 @@ export default function Page() {
         </section>
 
         <section id="sobremi" className="text-left px-1">
-          <h3 className="text-3xl font-bold mb-8">Sobre mí</h3>
+          <h3 className="text-3xl font-bold mb-8 text-white">Sobre mí</h3>
 
           <div className="space-y-6 text-lg leading-relaxed text-gray-300">
             <p>
@@ -194,7 +194,7 @@ export default function Page() {
         </section>
 
 
-        <section id="contact" className="text-center px-4">
+        <section id="contact" className="text-center px-4 text-white">
           <h3 className="text-3xl font-bold mb-4">¡Mándame un mensaje!</h3>
           <Contact />
         </section>
